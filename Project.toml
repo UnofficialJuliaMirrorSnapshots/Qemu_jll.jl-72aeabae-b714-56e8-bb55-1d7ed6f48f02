@@ -1,6 +1,6 @@
 name = "Qemu_jll"
 uuid = "72aeabae-b714-56e8-bb55-1d7ed6f48f02"
-version = "4.1.0+0"
+version = "4.1.0+1"
 
 [deps]
 Gettext_jll = "78b55507-aeef-58d4-861c-77aaff3498b1"

@@ -1,17 +1,17 @@
 [[Qemu]]
 arch = "x86_64"
-git-tree-sha1 = "83adf6ac12ddbe78f7144c9fe44c4644c89cf263"
+git-tree-sha1 = "d5aa881ac51b8beff4755d650da36a552fe056b2"
+os = "macos"
+
+    [[Qemu.download]]
+    sha256 = "dd45260a6edcea1ca7b33db745a2f95b55d45d78af2ad6615de38177bc2c64ba"
+    url = "https://github.com/JuliaBinaryWrappers/Qemu_jll.jl/releases/download/Qemu-v4.1.0+1/Qemu.v4.1.0.x86_64-apple-darwin14.tar.gz"
+[[Qemu]]
+arch = "x86_64"
+git-tree-sha1 = "4f55b9955760c1327ebcc03dc5a5ed3c9a673980"
 libc = "glibc"
 os = "linux"
 
     [[Qemu.download]]
-    sha256 = "e6a13ca7b80a5667039bc93a194d038072fda9e897ab759b92bf8cbf03dc59d1"
-    url = "https://github.com/JuliaBinaryWrappers/Qemu_jll.jl/releases/download/Qemu-v4.1.0+0/Qemu.v4.1.0.x86_64-linux-gnu.tar.gz"
-[[Qemu]]
-arch = "x86_64"
-git-tree-sha1 = "4c6d8c063b52f568a3039b0b57ada471db1caf43"
-os = "macos"
-
-    [[Qemu.download]]
-    sha256 = "de3f45439d0b9f4a6a4176bdbc0dab3abb5ae546ccecf11e261c478d3eaef750"
-    url = "https://github.com/JuliaBinaryWrappers/Qemu_jll.jl/releases/download/Qemu-v4.1.0+0/Qemu.v4.1.0.x86_64-apple-darwin14.tar.gz"
+    sha256 = "5a7d1ad8b21ae0632cec9bd67e16d1dc09a02c032a449c24ca58252d3137fe6b"
+    url = "https://github.com/JuliaBinaryWrappers/Qemu_jll.jl/releases/download/Qemu-v4.1.0+1/Qemu.v4.1.0.x86_64-linux-gnu.tar.gz"
